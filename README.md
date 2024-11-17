@@ -4,26 +4,24 @@ This project demonstrates a simple web application for managing shipment data us
 HTML
 JavaScript
 Bootstrap
-This project is ideal for learning database integration and developing lightweight, high-performance applications.
+Description
+This project demonstrates a web-based application for managing shipment data using JsonPowerDB. It allows users to:
+
+Save shipment records.
+Update existing records.
+Reset the input form for new entries.
+JsonPowerDB provides a schema-free, real-time database solution that integrates seamlessly with this project, ensuring a fast and efficient way to handle shipment data.
 
 Benefits of Using JsonPowerDB
-Fast and Reliable: JsonPowerDB provides ultra-low-latency responses, making it ideal for real-time applications.
-No Setup Required: Ready-to-use REST APIs eliminate the need for complex setups.
-Dynamic Schema: No schema definitions are needed, allowing for flexibility in data management.
-Cost-Effective: A highly affordable solution for developers and businesses.
-Powerful Indexing and Search: Built-in capabilities for quick and efficient queries.
-Cross-Platform: Works on any device or application with internet connectivity.
-Features
-Save Shipment Data:
-
-Enter details like shipment number, description, source, destination, shipping date, and expected delivery date.
-Save the data directly to the DELIVERY-DB database in the SHIPMENT-TABLE.
-Update Shipment Data:
-
-Modify details of an existing shipment record by providing the shipment number.
-Reset Form:
-
-Clear all fields in the form for a new data entry.
-Real-Time Interaction:
-
-All operations interact directly with the JsonPowerDB in real-time using its REST API.
+Ease of Use: JsonPowerDB's REST APIs make database interaction simple and intuitive.
+Real-Time Performance: Optimized for real-time applications with low-latency operations.
+Dynamic Schema: Eliminates the need for pre-defined schemas, allowing flexible data handling.
+Built-In Security: JsonPowerDB includes built-in token-based authentication.
+No Overhead: Requires no installation or configuration to get started.
+Powerful Indexing: Enables faster data search and retrieval.
+Release History
+v1.0.0:
+Initial release of the project.
+Features include saving, updating, and resetting shipment data.
+Integrated with JsonPowerDB using its REST APIs.
+GitHub Repository Link: https://github.com/imeayush/Save_Shipment_Data_to_JsonPowerDB_
